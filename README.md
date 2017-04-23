@@ -1,2 +1,1 @@
-# nunonickson.github.io
-Nuno Nickson Pages
+# Nuno Nickson
