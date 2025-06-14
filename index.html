@@ -1,36 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Situs Web Saya - GitHub Pages</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nama Anda | Personal Branding</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Selamat Datang di Halaman GitHub Saya!</h1>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang</a></li>
-            <li><a href="#">Kontak</a></li>
-        </ul>
-    </nav>
+  <!-- Header -->
+  <nav>
+    <h1>Nama Anda</h1>
+    <ul>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#portfolio">Portofolio</a></li>
+      <li><a href="#services">Layanan</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
 
-    <main>
-        <section>
-            <h2>Halo Dunia dari GitHub Pages!</h2>
-            <p>Ini adalah contoh sederhana situs web yang dihosting menggunakan GitHub Pages.</p>
-            <button id="myButton">Klik Saya!</button>
-        </section>
-    </main>
+  <div class="hero">
+    <h2>Halo, Saya [Nama Anda]</h2>
+    <p>Membantu bisnis Anda tumbuh melalui desain & teknologi.</p>
+    <a href="#contact" class="cta-btn">Hubungi Saya</a>
+  </div>
 
-    <footer>
-        <p>&copy; 2025.</p>
-    </footer>
+  <!-- Tentang -->
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah desainer UI/UX dengan pengalaman lebih dari 5 tahun. Fokus saya adalah membantu brand membangun pengalaman digital yang menarik dan efektif.</p>
+    <p>Saya percaya desain yang baik dapat membuat hidup lebih mudah dan bisnis lebih berkembang.</p>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Portofolio -->
+  <section id="portfolio">
+    <h2>Portofolio</h2>
+    <div class="portfolio-items">
+      <div class="item">
+        <img src="https://via.placeholder.com/400x250" alt="Proyek 1">
+        <h3>Proyek 1</h3>
+        <p>Website untuk startup teknologi dengan tampilan modern.</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/400x250" alt="Proyek 2">
+        <h3>Proyek 2</h3>
+        <p>Aplikasi mobile desain simpel & user-friendly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="services">
+    <h2>Layanan</h2>
+    <ul>
+      <li><strong>Desain Website</strong> — Membuat tampilan web profesional & responsif.</li>
+      <li><strong>Branding</strong> — Membangun identitas merek yang konsisten & kuat.</li>
+      <li><strong>Konsultasi</strong> — Memberikan arahan strategi digital untuk bisnis Anda.</li>
+    </ul>
+  </section>
+
+  <!-- Testimoni -->
+  <section id="testimonials">
+    <h2>Testimoni</h2>
+    <blockquote>
+      "Bekerja dengan [Nama Anda] adalah keputusan terbaik untuk bisnis saya. Hasilnya luar biasa!"
+      <cite>– Nama Klien</cite>
+    </blockquote>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p>Ingin berdiskusi? Hubungi saya melalui formulir berikut atau kirim email ke <a href="mailto:emailanda@domain.com">emailanda@domain.com</a></p>
+    <form>
+      <label>Nama</label>
+      <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Pesan</label>
+      <textarea name="message" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nama Anda. All rights reserved.</p>
+    <p>Ikuti saya di 
+      <a href="#">LinkedIn</a>, 
+      <a href="#">Instagram</a>, 
+      <a href="#">GitHub</a>
+    </p>
+  </footer>
+
 </body>
 </html>
